@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- Required meta tags always come first -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+   <!-- Additional CSS must be placed after Bootstrap CSS -->
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+   <link rel="Stylesheet" href="coffeeproject.css" />
+   <style>
+     
+ </style>
+    <title>Reservations</title>
+</head>
+<body>
+    <nav class="navbar py-0">
+        <ul>
+            <li><a href="coffeeProjectHomePage.html" class="navLettering btn fa fa-home">Home</a></li>
+            <li><a href="coffeeMenu.html" class="navLettering btn fa fa-coffee">Coffee</a></li>
+            <li><a href="foodMenu.html" class="navLettering btn fa fa-cutlery">Food</a></li>
+            <li><a href="roomReservationMenu.html" class="active navLettering btn fa fa-bed">Room Reservations</a></li>
+            <li><a href="contactPage.html" class="navLettering btn fa fa-phone">Contact</a></li>
+        </ul>
+    </nav>
+    <ul class="breadcrumb py-0">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Reservations</a></li>
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-12">
+                <h1>Reservations</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="img/notebook-1181071.jpg" alt="notebook" width="128" height="128">
+            </div>
+            <div class="col col-sm-6">
+                <form>
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <div class="form-group">
+                        <span><p style="display:inline">Smoking?</p></span>
+                        <input type="radio" style="display: inline" id= "yes" name= "answer" value= "yes">
+                        <label for="yes">yes</label>
+                        <input type="radio" style="display: inline" id= "no" name= "answer" value= "no">
+                        <label for="no">no</label>
+                    </div>
+                    <div class="form-group">
+                        <p style="display:inline">Tablet?</p>
+                        <input type="radio" style="display: inline" id= "apple" name= "type" value= "apple">
+                        <label for="apple">Apple</label>
+                        <input type="radio" style="display: inline" id= "windows" name= "type" value= "windows">
+                        <label for="windows">Windows</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
